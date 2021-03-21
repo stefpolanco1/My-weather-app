@@ -1,0 +1,92 @@
+.container {
+  background-color: #cddcdc;
+  background-image: radial-gradient(
+      at 50% 100%,
+      rgba(255, 255, 255, 0.5) 0%,
+      rgba(0, 0, 0, 0.5) 100%
+    ),
+    linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0.25) 0%,
+      rgba(0, 0, 0, 0.25) 100%
+    );
+  background-blend-mode: screen, overlay;
+  padding: 15px;
+  margin: 20px auto;
+  border-radius: 10px;
+  max-width: 600px;
+  border: 1px solid;
+}
+
+header {
+  text-align: center;
+  margin: 0 auto;
+  padding: 0;
+}
+h1 {
+  font-size: 50px;
+  color: #383e56;
+  margin: 0;
+  font-weight: 100;
+}
+ul {
+  margin: 0 0 10px;
+  padding: 1px;
+}
+li {
+  font-weight: 100;
+  height: 19px;
+  line-height: 1.5;
+  list-style: none;
+}
+.weatherDeets {
+  text-align: right;
+  font-size: 16px;
+  font-weight: 100;
+  height: 100px;
+  line-height: 1;
+}
+.currentday {
+  padding: 5px;
+}
+.temperature {
+  font-size: 45px;
+  color: #383e56;
+  text-align: center;
+  margin: 0 auto;
+  font-weight: 100;
+  padding-top: 0;
+  text-decoration: none;
+}
+#cel {
+  text-decoration: none;
+}
+.units {
+  position: relative;
+  top: -20px;
+  font-size: 22px;
+}
+.next5 {
+  text-align: center;
+}
+.date {
+  font-size: 14px;
+  color: rgb(43, 48, 42);
+}
+.day {
+  font-size: 16px;
+  color: rgb(43, 48, 42);
+}
+.picture {
+  font-size: 30px;
+  color: rgb(43, 48, 42);
+}
+.temp {
+  font-size: 22px;
+  color: rgb(43, 48, 42);
+  padding: 10px;
+}
+.searchForm {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
