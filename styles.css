@@ -90,3 +90,10 @@ li {
   margin-top: 20px;
   margin-bottom: 20px;
 }
+.footer {
+  color: #383e56;
+  padding-left: 350px;
+  font-size: 13px;
+  font-weight: lighter;
+  font-family: Arial, Helvetica, sans-serif;
+}
